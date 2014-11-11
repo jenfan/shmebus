@@ -1,0 +1,9 @@
+/* Application wide non-native CSS rules */
+.rebus_grid {
+	width: 70%;
+}
+.rebus {
+	float: left;
+	width: 30%;
+	padding: 2px;
+}

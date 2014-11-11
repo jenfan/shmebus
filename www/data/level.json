@@ -1,0 +1,28 @@
+[
+  {
+    "id": 1,
+    "name": "First level",
+    "description": "This is awesome.",
+    "rebuses" : [
+    { "id": 1, "name" : "asd" },
+    { "id": 2, "name" : "asd" },
+    { "id": 3, "name" : "asd" },
+    { "id": 4, "name" : "asd" },
+    { "id": 5, "name" : "asd" }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Second level",
+    "description": "This is also okay.",
+    "rebuses": [
+    { "id": 1, "name" : "asd" },
+    { "id": 2, "name" : "asd" },
+    { "id": 3, "name" : "asd" },
+    { "id": 4, "name" : "asd" },
+    { "id": 5, "name" : "asd" },
+    { "id": 6, "name" : "asd" },
+    { "id": 8, "name" : "asd" }
+    ]
+  }
+]

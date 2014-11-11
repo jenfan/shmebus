@@ -1,0 +1,35 @@
+[
+  {
+    "id": 1,
+    "name": "First rebus",
+    "description": "This is awesome.",
+    "url" : "/images/1.JPG",
+    "otvet" : "123"
+  },
+  {
+    "id": 2,
+    "name": "Second rebus",
+    "description": "This is also okay.",
+    "url" : "/images/1.JPG"
+  },
+  {
+    "id": 3,
+    "name": "3 rebus",
+    "description": "This is also okay."
+  },
+  {
+    "id": 4,
+    "name": "4 rebus",
+    "description": "This is also okay."
+  },
+  {
+    "id": 5,
+    "name": "5 rebus",
+    "description": "This is also okay."
+  },
+  {
+    "id": 8,
+    "name": "8 rebus",
+    "description": "This is also okay."
+  }
+]

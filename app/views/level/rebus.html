@@ -1,0 +1,13 @@
+<div ng-controller="rebusCtrl" class="padding">
+  <h2>{{rebus.name}}</h2>
+  <p>{{rebus.description}}</p>
+  <p>otvet:{{rebus.otvet}}</p>
+  
+  <img ng-src="{{rebus.url}}">
+
+<form name="reviewForm" ng-controller="ReviewController as reviewCtrl" ng-submit="reviewCtrl.addReview(rebus)">
+	<input ng-model="reviewCtrl.otvet" class="form-control" placeholder="otvet" title="otvet" />
+	<input type="submit" value="Submit" />
+	<p>{{reviewCtrl.otvet}}</p>
+</form>
+</div>

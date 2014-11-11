@@ -1,0 +1,12 @@
+<div ng-controller="ShowCtrl" class="padding">
+  <h2>{{level.name}}</h2>
+  <h2>{{rebus.name}}</h2>
+
+  <div class="rebus_grid">
+    <div class="rebus" ng-repeat="level in level.rebuses" ng-click="openrebus(level.id)" >
+      level{{ level.id }}
+    </div>
+  </div>
+</div>
+
+
